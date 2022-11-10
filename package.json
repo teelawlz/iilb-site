@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --input=site --serve",
-    "build": "eleventy --input=site",
-    "test": "echo nothing"
+    "build": "eleventy --input=site"
   },
   "keywords": [],
   "author": "",
