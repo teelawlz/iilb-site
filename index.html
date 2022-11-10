@@ -1,1 +1,8 @@
-You are officially a developer!
+<h1>Is It Luna's Birthday???</h1>
+<p id="the-answer" />
+
+<script>
+  // Test
+  const answer = new Date().toLocaleString().substring(0, 5) === '12/25' ? 'Yes' : 'No';
+  document.getElementById('the-answer').innerHTML = answer;
+</script>
